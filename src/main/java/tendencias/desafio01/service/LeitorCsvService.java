@@ -61,7 +61,7 @@ public class LeitorCsvService {
             } catch (IOException e) {
                 log.error("File Invalid");
             } catch (CsvValidationException e) {
-                log.error("File Invalid");
+                log.error("File csv Invalid");
             } finally {
                 if (leitorCSV != null) {
                     try {
